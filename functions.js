@@ -5,7 +5,7 @@ var increment = 0;
 function toLink() {
   if (increment == 6) {
     document.getElementById("pageBtn").onclick = function() {
-      window.location.href = "file:///C:/Users/v_tha/Desktop/html/projects/Project3/story.html";
+      window.location.href = "story.html";
     };
   }
   else {
